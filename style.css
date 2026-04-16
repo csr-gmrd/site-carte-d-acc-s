@@ -1,0 +1,155 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: #f4f6f9;
+    color: #1f2d3d;
+}
+
+.sidebar {
+    width: 260px;
+    min-height: 100vh;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+.sidebar h1 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+.sidebar-subtitle {
+    font-size: 0.95rem;
+    color: #bdc3c7;
+    margin-bottom: 20px;
+}
+.sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.sidebar a:hover { background: #34495e; }
+
+.main {
+    flex: 1;
+    padding: 30px;
+}
+
+.main h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.main p {
+    color: #5d6d7e;
+}
+
+.cards { display: flex; gap: 20px; margin-top: 20px; }
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.card h3 {
+    margin-bottom: 10px;
+}
+.card p { font-size: 2em; font-weight: bold; color: #2c3e50; }
+
+.panel {
+    margin-top: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.panel h3 {
+    margin-bottom: 12px;
+}
+
+.panel ul {
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+.form-page {
+    flex: 1;
+    padding: 30px;
+}
+
+.form-card {
+    max-width: 700px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}
+
+.form-card h2 {
+    margin-bottom: 15px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    padding: 12px;
+    border: 1px solid #d5d8dc;
+    border-radius: 8px;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: #2c3e50;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #34495e;
+}
+
+@media (max-width: 900px) {
+    body {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .cards,
+    .form-grid {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+}
