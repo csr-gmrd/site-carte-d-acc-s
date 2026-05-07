@@ -50,16 +50,6 @@ try {
                 <p>5</p>
             </div>
         </div>
-
-        <div class="panel">
-            <h3>Ce que tes commentaires décrivaient</h3>
-            <ul>
-                <li>Un titre pour indiquer que la page est réservée aux administrateurs.</li>
-                <li>Un dashboard pour naviguer entre les sections.</li>
-                <li>Un bouton pour créer une nouvelle carte d'accès.</li>
-                <li>Une page dédiée avec un formulaire pour saisir prénom, nom, numéro de carte et rôle.</li>
-            </ul>
-        </div>
     </div>
 
 
