@@ -54,6 +54,20 @@
                     <button class="btn" type="submit">Soumettre le formulaire</button>
                     <a class="btn" href="site_carte_acces.php" style="margin-left: 10px;">Retour au tableau de bord</a>
                 </div>
+                <div>
+                    <button class="btn" type="button" onclick="genererNumeroCarte()">Générer un numéro de carte</button>
+                    <function name="genererNumeroCarte">
+                        <script>
+                            function genererNumeroCarte() {
+                                const prefix = "AC-";
+                                const randomNum = Math.floor(1000 + Math.random() * 9000);
+                                document.getElementById('numero_carte').value = prefix + randomNum;
+                            }
+                        </script>
+
+                    </function>
+                    
+                </div>
             </form>
         </div>
     </div>
