@@ -59,7 +59,6 @@ try {
 
     <div class="main">
         <h2>Employés de l'entreprise</h2>
-        <p>Cette page affiche le prénom, le nom, le numéro de carte et le rôle de chaque employé.</p>
 
         <?php if ($messageErreur !== null): ?>
             <div class="alert alert-warning"><?php echo htmlspecialchars($messageErreur); ?></div>

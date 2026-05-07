@@ -20,7 +20,7 @@
     <div class="form-page">
         <div class="form-card">
             <h2>Ajouter une carte d'accès</h2>
-            <p>Le formulaire reprend exactement les champs décrits dans tes commentaires.</p>
+            
 
             <form method="post" action="">
                 <div class="form-grid">

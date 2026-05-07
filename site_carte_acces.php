@@ -35,7 +35,6 @@ try {
 
     <div class="main">
         <h2>Tableau de bord</h2>
-        <p>Cette page rassemble les actions principales de l'administration.</p>
 
         <div class="cards">
             <div class="card">
