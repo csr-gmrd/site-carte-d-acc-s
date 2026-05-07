@@ -70,6 +70,7 @@ def supprimer_employes():
         print("Aucun employé trouvé avec ce prénom et ce nom.")
 
 
+
 def main():
     print("1 - Ajouter un employé")
     print("2 - Supprimer un employé")

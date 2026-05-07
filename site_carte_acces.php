@@ -21,6 +21,7 @@ try {
 }
 ?>
 
+
 <body>
     <div class="sidebar">
         <h1>Administrateur</h1>
